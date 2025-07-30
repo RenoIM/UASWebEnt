@@ -56,13 +56,13 @@ export default function Dashboard() {
     <>
       {/* Modal Form */}
       {showForm && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">
+        <div className="fixed h-full w-full inset-0 z-50 flex items-center justify-center bg-opacity-40">
           <div className="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-md w-full max-w-md relative">
             <button
               onClick={handleCloseForm}
-              className="absolute top-2 right-2 text-slate-600 dark:text-white hover:text-red-600"
+              className="absolute top-2 right-8 text-slate-600 dark:text-white hover:text-red-600"
             >
-              ✕
+              x
             </button>
             <MahasiswaForm
               fetchMahasiswa={fetchMahasiswa}
@@ -75,8 +75,9 @@ export default function Dashboard() {
 
       {/* Modal Detail */}
       {detailData && (
-        <MahasiswaDetail data={detailData} onClose={() => setDetailData(null)} />
+            <MahasiswaDetail data={detailData} onClose={() => setDetailData(null)} />
       )}
+
 
       <div className="flex min-h-screen bg-slate-100 dark:bg-slate-900">
         {/* Sidebar */}
@@ -115,7 +116,7 @@ export default function Dashboard() {
                 setEditData(null);
                 setShowForm(true);
               }}
-              className="bg-blue-600 text-gray px-4 py-2 rounded-md hover:bg-blue-700 transition"
+              className="p-2 border-b dark:border-black/40 bg-blue-500/13 rounded-lg"
             >
               Tambah Mahasiswa
             </button>

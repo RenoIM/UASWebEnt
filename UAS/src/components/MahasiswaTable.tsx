@@ -41,26 +41,22 @@ export default function MahasiswaTable({
                     <td className="px-6 py-3 border-b dark:border-white/40">{m.nim}</td>
                     <td className="px-6 py-3 border-b dark:border-white/40">{m.name}</td>
                     <td className="p-2 text-center align-middle bg-transparent border-b dark:border-white/40 whitespace-nowrap">
-                      <div className="flex justify-center gap-3">
                         <button
                           onClick={() => onDetail(m)}
-                          className="text-xs text-green-600 dark:text-green-400 hover:underline"
+                          className="p-2 border-b dark:border-black/40 mr-2 text-xs font-semibold text-blue-600 dark:text-blue-400 hover:underline"
                         >
                           Detail
                         </button>
                         <button
                           onClick={() => onEdit(m)}
-                          className="text-xs text-blue-600 dark:text-blue-400 hover:underline"
+                          className="p-2 border-b dark:border-black/40 mr-2 text-xs font-semibold text-blue-600 dark:text-blue-400 hover:underline"
                         >
                           Edit
                         </button>
                         <button
                           onClick={() => onDelete(m.nim)}
-                          className="text-xs text-red-600 dark:text-red-400 hover:underline"
-                        >
-                          Hapus
-                        </button>
-                      </div>
+                          className="p-2 border-b dark:border-black/40 text-xs font-semibold text-red-600 dark:text-red-400 hover:underline">
+                         Hapus </button>
                     </td>
                   </tr>
                 ))}

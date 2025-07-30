@@ -106,13 +106,13 @@ export default function MahasiswaForm({
           className="w-full px-4 py-2 border rounded-md dark:bg-slate-700 dark:border-slate-600 dark:text-white"
         >
           <option value="">Pilih Gender</option>
-          <option value="Male">Laki-laki</option>
-          <option value="Female">Perempuan</option>
+          <option value="Laki-Laki">Laki-laki</option>
+          <option value="Perempuan">Perempuan</option>
         </select>
       </div>
 
       <div>
-        <label htmlFor="birth_date" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Birth Date</label>
+        <label htmlFor="birth_date" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Tanggal Lahir</label>
         <input
           id="birth_date"
           name="birth_date"
@@ -125,7 +125,7 @@ export default function MahasiswaForm({
       </div>
 
       <div>
-        <label htmlFor="address" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Address</label>
+        <label htmlFor="address" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Alamat</label>
         <input
           id="address"
           name="address"
@@ -139,7 +139,7 @@ export default function MahasiswaForm({
       </div>
 
       <div>
-        <label htmlFor="contact" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Contact</label>
+        <label htmlFor="contact" className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-1">Kontak</label>
         <input
           id="contact"
           name="contact"
