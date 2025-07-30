@@ -1,2 +1,2 @@
-# TugasBesar2WebE
-Tugas Besar 2 Web Enterprise Kelompok 6
+# UAS Web Enterprise
+UAS - Reno Ikhmal Maulana - 41823010046
