@@ -84,7 +84,7 @@ export default function Dashboard() {
         <aside className="w-64 p-4 my-4 ml-4 bg-white dark:bg-slate-850 shadow-xl rounded-2xl h-fit">
           <div className="mb-6">
             <a className="block text-lg font-bold text-slate-700 dark:text-white">
-              Admin Dashboard
+              Management Data Mahasiswa
             </a>
           </div>
           <hr className="mb-4 border-gray-300 dark:border-white/40" />
